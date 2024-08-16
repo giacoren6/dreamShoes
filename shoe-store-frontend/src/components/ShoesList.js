@@ -39,3 +39,5 @@ function ShoesList() {
 
     )
 }
+
+export default ShoesList;

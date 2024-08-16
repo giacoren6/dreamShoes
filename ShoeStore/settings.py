@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-0qyj9tnp8)h1s57ti@3qlj=(!2$0%(&7d#3#a17pfg+ci8r3q4"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'shoes',
+    
 ]
 
 MIDDLEWARE = [
