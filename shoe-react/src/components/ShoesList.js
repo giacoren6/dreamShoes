@@ -6,7 +6,7 @@ function ShoesList() {
 
     useEffect(() => {
         try {
-            axios.get('http://127.0.0.1:8000/api/shoes/')
+            axios.get('http://localhost:3000/api/shoes')
                 .then((response) => {
                     setShoes(response.data);
                 })

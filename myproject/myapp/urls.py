@@ -7,4 +7,5 @@ router.register(r'shoes', ShoeViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    
 ]
